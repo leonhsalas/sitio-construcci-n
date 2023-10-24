@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#container-movil{
+    display: none;
+}
+
+.img{
+    width: 100%;
+    height: fit-content;
+}
+
+@media (max-width: 950px){
+    #container-web{
+        display: none  !important;
+    }
+    #container-movil{
+        display: contents !important;
+    }
+}
